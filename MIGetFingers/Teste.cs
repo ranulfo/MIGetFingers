@@ -23,7 +23,7 @@ namespace MIGetFingers
                 }
                 else
                 {
-                    System.Console.WriteLine("erro");
+                    System.Console.WriteLine("erro!");
                 }
             }
             catch (Exception e)
