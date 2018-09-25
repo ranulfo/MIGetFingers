@@ -32,7 +32,7 @@ namespace MIGetFingers
                     {
                         template = null;
 
-                        if (e.Message.Contains("(500) Internal Server Error.") || e.Message.Contains("(500) Erro Interno do Servidor!."))//provável erro de template, afisid = -200                        
+                        if (e.Message.Contains("(500) Internal Server Error!.") || e.Message.Contains("(500) Erro Interno do Servidor!."))//provável erro de template, afisid = -200                        
                         {
                             return false;
                         }
